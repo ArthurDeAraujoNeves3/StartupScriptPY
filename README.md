@@ -37,6 +37,11 @@ py main.py
 Agora iremos fazer com que o script execute toda vez que o windows iniciar 
 
 1) Aperte `win + r` e digite **shell:startup**
+
+![Screenshot da prompt de comando](./docs/prompt.png)
+
 2) Copie e cole o arquivo **main.py** dentro da pasta aberta e altere o formato do arquivo para **.pyw** para que ele possa exeutar sem o console
+
+![Arquivo startup](./docs/startupFile.png)
 
 Se tudo estiver correto, agora o script irá executar toda vez que você iniciar o seu  sistema
