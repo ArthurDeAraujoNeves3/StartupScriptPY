@@ -4,15 +4,9 @@ import customtkinter
 # O 'r' no começo é para transforma a strin bruta, já que a '\' interpreta como formfeed (\f) 
 # Coloque o nome do programe e o caminho para o .exe
 programs = {
-    "Paint.NET": {
-        "path": r"C:\Program Files\Paint.NET\paintdotnet.exe"
+    "": {
+        "path": r""
     },
-    "Firefox": {
-        "path": r"C:\Program Files\Mozilla Firefox\firefox.exe"
-    },
-    "Photoshop": {
-        "path": r"C:\Program Files\Mozilla Firefox\firefox.ex"
-    }
 }
 
 colors = {
