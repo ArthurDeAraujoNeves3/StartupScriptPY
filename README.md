@@ -6,7 +6,7 @@ Tenha certeza de ter o [python](https://www.python.org/) instalado em sua máqui
 
 Clone o projeto no seu computador
 ```bash
-git clone 
+git clone https://github.com/ArthurDeAraujoNeves3/StartupScriptPY.git
 ```
 Instale as dependências necessárias para o projeto rodar
 ```bash
