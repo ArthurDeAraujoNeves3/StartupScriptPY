@@ -1,5 +1,6 @@
 import subprocess
 import customtkinter
+from time import sleep
 
 # O 'r' no começo é para transforma a strin bruta, já que a '\' interpreta como formfeed (\f) 
 # Coloque o nome do programe e o caminho para o .exe
@@ -32,6 +33,7 @@ def getProgram():
     # key é o nome do programa
     for key in programs:
         errors = openProgram(key, programs[key]["path"], errors)
+        sleep(2)
     
     # Se não houver erros, fechamos a janela
     if errors == 0:

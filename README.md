@@ -10,7 +10,7 @@ git clone https://github.com/ArthurDeAraujoNeves3/StartupScriptPY.git
 ```
 Instale as dependências necessárias para o projeto rodar
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Como adicionar os programas
