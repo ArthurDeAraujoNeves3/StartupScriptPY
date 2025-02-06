@@ -21,7 +21,8 @@ customtkinter.set_default_color_theme("blue")
 
 # Configurações da tela
 app = customtkinter.CTk()
-app.geometry("400x300")
+app.geometry("700x300")
+app.minsize(width=700, height=300)
 app.title("Logs")
 
 # def initializeScreenViewer():
@@ -43,6 +44,7 @@ def openProgram(name: str, path: str, errors: int):
     except:
         createMessage(text=f"{name} não encontrado. Caminho do executável incorreto \n {path}", error=True)
         errors += 1
+        app.mainloop()
 
     return errors
 
@@ -54,4 +56,4 @@ def createMessage(text: str, error: bool):
     
 # Inicio
 getProgram()
-app.mainloop()
+# app.mainloop()

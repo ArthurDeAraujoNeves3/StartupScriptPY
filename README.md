@@ -18,8 +18,8 @@ pip install requirements.txt
 Vá até o arquivo principal **main.py**, e procure a variável `programs` que está logo no topo do código, e adicione o nome do programa e o **caminho até o executável** dele. 
 
 ```python
-"": {
-    "path": r""
+"nome do programa": {
+    "path": r"caminho até o executável"
 },
 ```
 
